@@ -7,7 +7,7 @@ import LoadingSpinner from "../components/LoadingSpinner";
 const ListPage = () => {
   return (
     <div>
-      <div className="">
+      <div className="nav-wrapper flex">
         <h1>Blogs</h1>
         <div>
           <Link to="/blogs/create" className="">
